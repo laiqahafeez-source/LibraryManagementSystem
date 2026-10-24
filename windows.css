@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+header {
+    background: #172554;
+    color: white;
+    padding: 25px 30px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+nav {
+    background: white;
+    padding: 15px 30px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px #0000000d;
+}
+
+nav button {
+    background: transparent;
+    color: #334155;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background: #2563eb;
+    color: white;
+}
+
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0000000a;
+}
+
+section h2 {
+    color: #172554;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+#dashboard p {
+    display: inline-block;
+    width: 30%;
+    min-width: 180px;
+    background: #eff6ff;
+    padding: 25px 18px;
+    margin: 8px;
+    border-radius: 10px;
+    border-left: 5px solid #2563eb;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+input {
+    padding: 12px;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 10px 0;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2563eb;
+}
+
+button {
+    cursor: pointer;
+}
+
+section button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+section button:hover {
+    background: #1d4ed8;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#bookResults {
+    margin-top: 20px;
+}
+
+footer {
+    background: #172554;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 650px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        padding: 12px;
+    }
+
+    nav button {
+        padding: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    #dashboard p {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
